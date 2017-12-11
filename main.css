@@ -35,9 +35,17 @@ color: white;
 .text-center {
   text-align: center;
 }
+.space {
+  margin-bottom: 2% ;
+  margin-top: 2%;
+}
 
-
-
+.line {
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgb(189, 189, 189);
+  border-image: initial;
+}
 .pos-left {
 font-size: 1.25rem;
 float: left;
@@ -96,9 +104,16 @@ padding: 5px 15px;
 .col-xs-12 {
   width: 100% ;
 }
+.col-xs-1 {
+  width: 8.333333%;
+}
 
 .col-section {
   width: 100%;
+}
+
+.footer {
+  padding: 3rem;
 }
 @media (min-width: 768px){
 
